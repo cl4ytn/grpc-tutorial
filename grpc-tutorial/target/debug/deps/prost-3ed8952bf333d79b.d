@@ -1,0 +1,11 @@
+/Users/clayton/Desktop/UI/AP/mod9/grpc-tutorial/grpc-tutorial/target/debug/deps/libprost-3ed8952bf333d79b.rmeta: /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/lib.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/error.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/message.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/types.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/encoding.rs
+
+/Users/clayton/Desktop/UI/AP/mod9/grpc-tutorial/grpc-tutorial/target/debug/deps/libprost-3ed8952bf333d79b.rlib: /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/lib.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/error.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/message.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/types.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/encoding.rs
+
+/Users/clayton/Desktop/UI/AP/mod9/grpc-tutorial/grpc-tutorial/target/debug/deps/prost-3ed8952bf333d79b.d: /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/lib.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/error.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/message.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/types.rs /Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/encoding.rs
+
+/Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/lib.rs:
+/Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/error.rs:
+/Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/message.rs:
+/Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/types.rs:
+/Users/clayton/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prost-0.10.4/src/encoding.rs:
