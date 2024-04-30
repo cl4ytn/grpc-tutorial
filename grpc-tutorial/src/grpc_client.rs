@@ -1,3 +1,10 @@
+use tonic::transport::Channel;
+use tokio::sync::mpsc;
+use tokio_stream::wrappers::ReceiverStream;
+use tokio::sync::mpsc::{Sender, Receiver};
+use tokio::io::(self, AsyncBofReadExt);
+
+
 pub mod services {
     tonic::include_proto!("services");
 }
@@ -42,7 +49,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             let message = ChatMessage {
                 user_id: "user_123".to_string(),
                 message: line,
-            }
+            };
+
             if tx.send(message).await.is_err() {
                 eprintln!("failed to send messsage to server.");
                 break;
