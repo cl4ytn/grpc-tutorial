@@ -74,24 +74,27 @@ impl ChatService for MyChatService {
         request: Request<tonic::Streaming<ChatMessage>>,
     ) -> Result<Response<Self::ChatStream>, Status> {
         let mut stream = request.into_inner();
-        let (tx,rx) = mpsc::channel(10);
+        let (tx, rx) = mpsc::channel(10);
 
         tokio::spawn(async move {
             while let Some(message) = stream.message().await.unwrap_or_else(|_| None) {
                 println!("Received message: {:?}", message);
                 let reply = ChatMessage {
                     user_id: message.user_id.clone(),
-                    message: format!("Terma kasih telah melakukan chat kepada CD vritual,
-                    Pesan anda akan dibalas pada jam kerja. pesan anda: {}"), message.message),
+                    message: format!(
+                        "Terima kasih telah melakukan chat kepada CD virtual,
+                        Pesan anda akan dibalas pada jam kerja. Pesan anda: {}",
+                        message.message)
                 };
 
                 tx.send(Ok(reply)).await.unwrap_or_else(|_| {});
             }
         });
 
-        Ok(Response::new(RecieverStream::new(rx)))
+        Ok(Response::new(ReceiverStream::new(rx)))
     }
 }
+
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dym std::error::Error>> {
